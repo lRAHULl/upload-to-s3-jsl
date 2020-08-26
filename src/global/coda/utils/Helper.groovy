@@ -10,7 +10,7 @@ class Helper {
   //   }
   // }
 
-  static String slackSendStatus(Sting result) {
+  static String slackSendStatus(String result) {
     if ( result == "SUCCESS" ) {
       return "good"
     }
